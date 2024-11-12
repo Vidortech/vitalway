@@ -1,41 +1,70 @@
-# VitalWay
+# Getting Started with Create React App
 
-**VitalWay** é um projeto inovador destinado a condutores de veículos de emergência, focado no desenvolvimento de uma aplicação de mapeamento que utiliza dados de satélites para otimizar rotas em tempo real. O objetivo é garantir que os condutores possam responder rapidamente a emergências, evitando problemas e atrasos nas estradas.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Propósito do Projeto
+## Available Scripts
 
-O **VitalWay** visa aprimorar a eficiência e a segurança dos condutores de veículos de emergência ao fornecer uma solução prática que:
+In the project directory, you can run:
 
-- **Otimize Rotas**: Calcule novas rotas automaticamente com base em dados de satélite, considerando condições de tráfego, acidentes e outros impedimentos.
-- **Forneça Informações em Tempo Real**: Monitore constantemente as condições das estradas, permitindo ajustes rápidos na rota conforme necessário.
-- **Aumente a Segurança**: Reduza o tempo de resposta em emergências, melhorando a capacidade de atendimento ao público.
+### `npm start`
 
-## Como será feito
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-O desenvolvimento do **VitalWay** será realizado utilizando uma combinação de linguagens de programação e tecnologias modernas que garantem desempenho, segurança e escalabilidade:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### 1. **Linguagens e Tecnologias**:
+### `npm test`
 
-- **Fortran**: Usado para cálculos numéricos de alta precisão, especialmente na manipulação e processamento de dados vitais relacionados ao mapeamento e otimização de rotas.
-- **C++ e Rust**: Garantindo alta performance e segurança para algoritmos críticos que processam dados em tempo real.
-- **JavaScript e TypeScript**: Para o desenvolvimento de interfaces web interativas, proporcionando uma excelente experiência do usuário.
-- **React, Vue.js, Flutter, React Native**: Frameworks para o desenvolvimento de interfaces web e móveis, permitindo que a aplicação seja acessível tanto em navegadores quanto em dispositivos móveis.
-  
-### 2. **Infraestrutura**:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- **AWS, Google Cloud, Azure**: Implantação em plataformas de nuvem escaláveis, garantindo alta disponibilidade e segurança para dados sensíveis.
-- **Redis e Memcached**: Soluções de cache para acelerar o acesso a dados frequentemente utilizados, melhorando a performance da aplicação.
+### `npm run build`
 
-### 3. **Monitoramento**:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- **Prometheus e Grafana**: Ferramentas integradas para monitoramento em tempo real da aplicação, permitindo o rastreamento de métricas de desempenho e a integridade do sistema.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Funcionalidades
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- **Cadastro de Usuários**: Um sistema de autenticação seguro para registro e login dos condutores.
-- **Mapeamento em Tempo Real**: Interface intuitiva para visualizar rotas em tempo real, com informações atualizadas sobre o tráfego e condições das estradas.
-- **Otimização de Rotas**: Cálculo automático de novas rotas, considerando condições em tempo real e permitindo que os condutores evitem atrasos.
-- **Notificações e Alertas**: Sistema de alertas personalizados para informar os condutores sobre mudanças nas condições da estrada.
-- **Exportação de Dados**: Opção de exportar informações de rotas e condições em formatos como CSV e PDF.
+### `npm run eject`
 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
